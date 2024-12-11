@@ -23,19 +23,19 @@ window.configure(background = "light gray") # Sets color of window
 
 # These are all the images used in the code on buttons and on labels that have been sized to fit their respective 
 # place using "subsample".
-flag = PhotoImage(file = "flag.png")
+flag = PhotoImage(file = "assets/flag.png")
 flag_sized = flag.subsample(45, 35)
-question = PhotoImage(file = "question.png")
+question = PhotoImage(file = "assets/question.png")
 question_sized = question.subsample(22,22)
-happy = PhotoImage(file = "happy.png")
+happy = PhotoImage(file = "assets/happy.png")
 happy_sized = happy.subsample(2, 2)
-dead = PhotoImage(file = "dead.png")
+dead = PhotoImage(file = "assets/dead.png")
 dead_sized = dead.subsample(20, 20)
-cool = PhotoImage(file = "cool.png")
+cool = PhotoImage(file = "assets/cool.png")
 cool_sized = cool.subsample(15, 15)
-shock = PhotoImage(file = "shock.png")
+shock = PhotoImage(file = "assets/shock.png")
 shock_sized = shock.subsample(3, 3)
-mine = PhotoImage(file = "mine.png")
+mine = PhotoImage(file = "assets/mine.png")
 mine_sized = mine.subsample(12,12)
 
 # imagevar can be seen as a dummy image used to size labels and buttons which rely on either an image or text
