@@ -64,10 +64,10 @@ python minesweeper.py
 ## Project Structure
 
 ```bash
-minesweeper/
-|-- assets/             # Static assets used by the game.
-|-- minesweeper.py      # Game script.
-|-- README.md           # The project's documentation.
+minesweeper
+├── assets/             # Static assets used by the game.
+├── minesweeper.py      # Game script.
+└── README.md           # The project's documentation.
 ```
 
 ## Acknowledgments
